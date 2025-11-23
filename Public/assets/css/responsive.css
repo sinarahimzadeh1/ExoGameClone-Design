@@ -1,0 +1,168 @@
+@media screen and (max-width: 1399.98px) {
+    .quantity-left-minus {
+        padding: 5px !important;
+    }
+
+    .quantity-right-plus {
+        padding: 5px !important;
+    }
+}
+
+@media screen and (max-width: 1249.98px) {
+    ul.dropdown-menu div.row li ul.myUl {
+        margin: 0 10%;
+    }
+
+    .input-number {
+        width: 20px !important;
+    }
+}
+
+@media screen and (max-width: 1199.98px) {
+    .navbar-nav a.nav-link {
+        font-size: 1rem !important;
+    }
+
+    .social-media a svg {
+        font-size: 20px !important;
+    }
+
+    a.nav-link {
+        margin: 0 !important;
+    }
+
+    .price h2 {
+        font-size: 20px;
+    }
+
+    .price button {
+        font-size: 16px !important;
+    }
+
+    .starts {
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    .short-icon {
+        display: none;
+    }
+
+    a.nav-link {
+        padding: 0 !important;
+    }
+
+    .nav-link svg {
+        padding: 0 5px;
+    }
+
+    #responsive-navigation {
+        display: hide;
+    }
+
+    .system-image {
+        margin: 20px 0;
+    }
+
+    .starts {
+        margin-right: 0px;
+    }
+
+    .input-group {
+        justify-content: center !important;
+    }
+
+    .input-number-2 {
+        width: 80% !important;
+    }
+
+    .input-number {
+        width: 50% !important;
+    }
+
+    .sticky-top-local {
+        margin-top: 20px;
+    }
+
+    .card {
+        width: calc(calc(100% / 2) - 42px);
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .MainMenu {
+        display: none !important;
+    }
+
+    .burger-menu {
+        display: inherit;
+    }
+
+    #responsive-navigation {
+        display: inherit;
+    }
+
+    #swiper-one .swiper {
+        display: none;
+    }
+
+    #swiper-two .swiper {
+        display: inherit;
+    }
+
+    ul#fav-list li {
+        width: calc(100% / 3);
+    }
+
+    .accordion-flush .accordion-item {
+        display: contents;
+    }
+
+    .items {
+        width: 50% !important;
+        margin-bottom: 30px;
+    }
+
+    .op-img {
+        width: 25% !important;
+    }
+
+    .op-user-detail {
+        width: 50% !important;
+    }
+
+    .user-op {
+        width: 80% !important;
+    }
+
+    .user-op p {
+        font-size: 17px !important;
+    }
+
+    .admin-op {
+        width: 80% !important;
+    }
+
+    .admin-op p {
+
+        font-size: 17px !important;
+    }
+
+    .factor-btn {
+        width: 100% !important;
+    }
+
+    .card {
+        width: 100%;
+        margin: 1.5rem 0 !important;
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+    ul#fav-list li {
+        width: calc(100% / 2);
+    }
+}
+
+@media screen and (max-width: 529.98px) {}

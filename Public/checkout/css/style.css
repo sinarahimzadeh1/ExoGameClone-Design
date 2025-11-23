@@ -1,0 +1,49 @@
+.checkout-items img {
+    float: right;
+}
+
+.checkout-items h4+h6 {
+    float: right;
+}
+
+.checkout-items {
+    position: relative;
+    padding: 10px;
+}
+
+.input-group {
+    width: unset !important;
+    justify-content: end;
+} 
+
+.check {
+    border: 2px solid #6363633e ;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.input-number {
+    width: 30px !important;
+}
+
+.input-number-2 {
+    width: 30px !important;
+    border: none;
+    border-top: 1px solid #00000069;
+    border-bottom: 1px solid #00000069;
+    text-align: center;
+    outline: 0;
+}
+
+.checkout-item {
+    border: 2px solid #6363633e ;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.quantity-left-minus {
+    padding-left: 5px !important;
+}
+.quantity-right-plus {
+    padding-right: 5px !important;
+}

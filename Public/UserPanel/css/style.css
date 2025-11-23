@@ -1,0 +1,48 @@
+.profile-image {
+    text-align: center !important;
+}
+
+.profile-image img {
+    border: 1px solid #000;
+    padding: 20px;
+    border-radius: 100px;
+}
+
+.tabs {
+    padding: 0;
+    display: block !important;
+}
+
+.tabs li {
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.tab-content {
+    display: none;
+    padding: 10px;
+}
+
+.active-tab {
+    color: #03c03c !important;
+}
+
+.show {
+    display: block;
+}
+
+.table-systems {
+    width: calc(100% / 1);
+    overflow: scroll;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}

@@ -1,0 +1,64 @@
+.tabs {
+    padding: 0;
+    display: block !important;
+}
+
+.tabs li {
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.tab-content {
+    display: none;
+    padding: 10px;
+}
+
+.active-tab {
+    color: #03c03c !important;
+    background-color: rgba(3, 192, 60, 0.15) !important;
+    border: 1px solid rgba(3, 192, 60, 0.2) !important;
+    border-radius: 50px;
+}
+
+.show {
+    display: block;
+}
+
+.openion-item {
+    margin: 30px 0;
+    border: 2px solid #6e6e6e56;
+    border-radius: 6px;
+}
+
+.openion-item img {
+    margin: 20px;
+    width: 70px;
+    border: 1px solid #252424e3;
+    border-radius: 50px;
+}
+
+.user-op {
+    width: 93% !important;
+    text-align: justify;
+}
+
+.admin-op {
+    width: 93% !important;
+    text-align: justify;
+}
+
+.openion-bottom-border {
+    border-bottom: 2px solid #6e6e6e56;
+    position: absolute;
+    bottom: 75px;
+    right: 0;
+}
+
+.table-systems {
+    width: calc(100% / 1);
+    overflow: scroll;
+}
+
+.canvas-style {
+    width: calc(100% / 2);
+}

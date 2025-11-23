@@ -1,0 +1,79 @@
+/* Range Slider */
+
+#slider-range {
+    width: 99%;
+    direction: rtl;
+    background-color: #ccc;
+    margin: 0 auto;
+}
+
+.price-range {
+    margin-top: 20px;
+    direction: rtl;
+}
+
+.ui-slider-horizontal {
+    direction: ltr;
+}
+
+.ui-slider-range {
+    background-color: #03c03ccc !important;
+}
+
+.ui-slider-handle {
+    border-radius: 50px !important;
+    background-color: #01af36 !important;
+    border: 0 !important;
+    outline: none;
+}
+
+.ui-state-active {
+    background-color: #038d2d !important;
+    border: 0 !important;
+    width: 10px;
+}
+
+.ui-slider-horizontal {
+    height: 5px !important;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+    top: -7px !important;
+}
+
+/* Products */
+
+.card {
+    width: calc(100% / 4);
+    margin: 1.5rem 1.5rem;
+    transition: all 0.3s;
+}
+
+.card:hover {
+    border: 1px solid #01af36;
+
+}
+
+.off span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    background-color: #01af35b3;
+    border-radius: 6px;
+    color: white;
+    padding: 10px;
+    font-weight: 600;    
+}
+
+
+del {
+    font-size: 17px;
+    position: absolute;
+    top: 0;
+    margin: 20px;
+    background-color: #ff00007f;
+    padding: 6px;
+    border-radius: 6px;
+    color: white;
+}

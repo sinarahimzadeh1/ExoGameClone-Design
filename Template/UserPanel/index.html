@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exo Game</title>
+
+    <link rel="stylesheet" href="../../Public/userpanel/css/style.css" />
+
+    <link rel="stylesheet" href="../../Public/assets/css/style.css" />
+    <link rel="stylesheet" href="../../Public/assets/css/responsive.css" />
+    <link rel="stylesheet" href="../../Public/assets/css/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="../../Public/assets/css/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../../Public/assets/font/css/all.css" />
+    <link rel="icon" href="../../Public/main-page/img/ICON_Optimized.png" />
+</head>
+
+<body>
+    <!-- header -->
+    <nav id="responsive-navigation">
+        <ul>
+            <li><a class="closeRN"><i class="fa fa-close fs-1 pointer mt-5" aria-hidden="true"></i></a></li>
+            <li><a href="" class="fs-3">صفحه اصلی</a></li>
+            <li>
+                <a class="RN-category fs-3 pointer">دسته بندی</a>
+                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                <ul class="RN-SubMenu-ul">
+                    <li>
+                        <a class="RN-item fs-4 pointer">
+                            کامپیوتر
+                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </a>
+                        <ul class="RN-Submenu-li">
+                            <li>
+                                <a href="#" class="fs-4">
+                                    کامپیوتر های گیمینگ
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="fs-4">
+                                    کامپیوتر های رندرینگ
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="fs-4">
+                                    کامپیوتر های اداری
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="RN-item  fs-4  pointer">
+                            قطعات کامپیوتر
+                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </a>
+                        <ul class="RN-Submenu-li">
+                            <li>
+                                <a href="#" class="fs-4">
+                                    کامپیوتر های گیمینگ
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="fs-4">
+                                    کامپیوتر های رندرینگ
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="fs-4">
+                                    کامپیوتر های اداری
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="RN-item  fs-4  pointer">
+                            مانیتور
+                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </a>
+                        <ul class="RN-Submenu-li">
+                            <li>
+                                <a href="#" class="fs-4">
+                                    مانیتور
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="fs-4">
+                                    کامپیوتر های رندرینگ
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="fs-4">
+                                    کامپیوتر های اداری
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="RN-item  fs-4  pointer">
+                            کنسول‌‌های گیمینگ
+                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </a>
+                        <ul class="RN-Submenu-li">
+                            <li>
+                                <a href="#" class="fs-4">
+                                    کامپیوتر های گیمینگ
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="fs-4">
+                                    کامپیوتر های رندرینگ
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="fs-4">
+                                    کامپیوتر های اداری
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="" class="fs-3">اگزوتیک</a></li>
+            <li><a href="" class="fs-3">درباره ما</a></li>
+        </ul>
+    </nav>
+
+    <header class="mt-4 sticky-top first-header bg-glass">
+        <div class="container-fluid">
+            <div class="row text-center" style="padding: 15px 0; margin: 0;">
+                <div class="col-lg-8">
+                    <a href="#"><img src="../../Public/main-page/img/logo.svg" class="logo ms-4" alt="logo"></a>
+                    <div class="searchbar">
+                        <input type="search" class="search" placeholder="جستجو...">
+                        <i class="fa fa-search search-ico" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="short-icon col-lg-4 mt-2">
+                    <a href="#">
+                        <img src="../../Public/main-page/img/sina-logo.png" alt="personal logo" class="ms-4 myLogo hide"
+                            style="width: 120px;">
+                    </a>
+                    <a href="#"> <!-- data-toggle="tooltip" title="عضویت | ورود" -->
+                        <i class="green-shadow fa fa-user mx-4 fs-4" aria-hidden="true"></i>
+                    </a>
+                    <a href="#"> <!-- data-toggle="tooltip" title="سبد خرید" -->
+                        <i class="green-shadow fa fa-shopping-bag me-4 fs-4" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <header class="shadow-sm" style="padding-bottom: 20px;">
+        <div class="container-fluid">
+            <div class="row mt-4 text-center">
+                <div class="col-md-8 MainMenu">
+                    <nav class="navbar navbar-expand-sm navbar-light">
+                        <button class="d-none navbar-toggler open" type="button" data-toggle="collapse"
+                            data-target="#navbarID" aria-controls="navbarID" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-center close" id="navbarID">
+                            <div class="navbar-nav">
+
+                                <a class="nav-link SubMenu mx-2 fs-5" id="navbarScrollingDropdown"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+
+                                    <i class="fa fa-bars" aria-hidden="true"></i>
+                                    دسته بندی ها
+
+                                </a>
+
+                                <ul class="shadow-lg" id="dropDownMenu">
+                                    <div class="row">
+                                        <li>
+                                            <div class="header-btn">
+                                                <div class="col-md-2" data-id="1">
+                                                    <a class="dropdown-item fs-5 text-end position-relative">
+                                                        کامپیوتر
+                                                        <i class="fa fa-angle-left position-absolute"
+                                                            aria-hidden="true"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="subMenu active">
+                                                    <ul class="position-absolute myUl text-end">
+                                                        <li>
+                                                            <a href="#" class="fs-5 fw-100">
+                                                                کامپیوتر های گیمینگ
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="fs-5 fw-100">
+                                                                کامپیوتر های رندرینگ
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="fs-5 fw-100">
+                                                                کامپیوتر های اداری
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                    <img class="position-absolute myImg"
+                                                        src="../../Public/main-page/img/Cat Thumbnail Pre Build v1.png"
+                                                        alt="pc Thumbnail">
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="header-btn">
+                                                <div class="col-md-2" data-id="2">
+                                                    <a class="dropdown-item fs-5 text-end position-relative">
+                                                        قطعات کامپیوتر
+                                                        <i class="fa fa-angle-left position-absolute"
+                                                            aria-hidden="true"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="subMenu">
+                                                    <ul class="position-absolute myUl text-end">
+                                                        <li>
+                                                            <a href="#" class="fs-5 fw-100">
+                                                                پردازنده (CPU)
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="fs-5 fw-100">
+                                                                گرافیک (GPU)
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="fs-5 fw-100">
+                                                                حافظه جانبی (RAM)
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="fs-5 fw-100">
+                                                                مادربرد (MotherBoard)
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="fs-5 fw-100">
+                                                                موس و کیبورد
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                    <img class="position-absolute myImg"
+                                                        src="../../Public/main-page/img/Cat Thumbnail Pc Eq v1 copy.png"
+                                                        alt="pc Thumbnail">
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="header-btn">
+                                                <div class="col-md-2" data-id="3">
+                                                    <a class="dropdown-item fs-5 text-end position-relative">مانیتور
+                                                        <i class="fa fa-angle-left position-absolute"
+                                                            aria-hidden="true"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="subMenu">
+                                                    <ul class="position-absolute myUl text-end">
+                                                        <li>
+                                                            <a href="#" class="fs-5 fw-100">
+                                                                کامپیوتر های گیمینگ
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="fs-5 fw-100">
+                                                                کامپیوتر های رندرینگ
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="fs-5 fw-100">
+                                                                کامپیوتر های اداری
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                    <img class="position-absolute myImg"
+                                                        src="../../Public/main-page/img/Cat Thumbnail monitor.png"
+                                                        alt="pc Thumbnail">
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="header-btn">
+                                                <div class="col-md-2" data-id="4">
+                                                    <a class="dropdown-item fs-5 text-end position-relative">لپ
+                                                        تاپ
+                                                        <i class="fa fa-angle-left position-absolute"
+                                                            aria-hidden="true"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="subMenu">
+                                                    <ul class="position-absolute myUl text-end">
+                                                        <li>
+                                                            <a href="#" class="fs-5 fw-100">
+                                                                کامپیوتر های گیمینگ
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="fs-5 fw-100">
+                                                                کامپیوتر های رندرینگ
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="fs-5 fw-100">
+                                                                کامپیوتر های اداری
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                    <img class="position-absolute myImg"
+                                                        src="../../Public/main-page/img/Cat Thumbnail Laptops v1 copy.png"
+                                                        alt="pc Thumbnail">
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="header-btn">
+                                                <div class="col-md-2" data-id="5">
+                                                    <a class="dropdown-item fs-5 text-end position-relative">کنسول‌‌های
+                                                        گیمینگ
+                                                        <i class="fa fa-angle-left position-absolute"
+                                                            aria-hidden="true"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="subMenu">
+                                                    <ul class="position-absolute myUl text-end">
+                                                        <li>
+                                                            <a href="#" class="fs-5 fw-100">
+                                                                کامپیوتر های گیمینگ
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="fs-5 fw-100">
+                                                                کامپیوتر های رندرینگ
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="fs-5 fw-100">
+                                                                کامپیوتر های اداری
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                    <img class="position-absolute myImg"
+                                                        src="../../Public/main-page/img/Cat Thumbnail Consoles v1 copy.png"
+                                                        alt="pc Thumbnail">
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </div>
+                                </ul>
+
+                                <a class="nav-link active mx-2 fs-5" aria-current="page" href="#">
+                                    <i class="fa fa-home" aria-hidden="true"></i>
+                                    صفحه اصلی
+                                </a>
+                                <a class="nav-link mx-2 fs-5" aria-current="page" href="#">
+                                    <i class="fa fa-ticket" aria-hidden="true"></i>
+                                    اگزوتیک
+                                </a>
+                                <a class="nav-link mx-2 fs-5" aria-current="page" href="#">
+                                    <i class="fa fa-question" aria-hidden="true"></i>
+                                    درباره ما
+                                </a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="col-md-4 mt-3">
+                    <button class="fs-6 btn btn-outline-secondary gray-shadow">درخواست پیش فاکتور</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="burger-menu">
+            <i class="fas fa-bars fs-1 px-4"></i>
+        </div>
+
+    </header>
+
+    <!-- content -->
+    <main>
+
+        <div class="container">
+            <div class="row mt-5 ">
+                <div class="col-lg-3 mt-5">
+                    <div class="profile-image left-border bottom-border py-5">
+                        <img src="../../Public/Product/img/avatar/avatar.png" alt="">
+                        <div class="change-img my-4">
+                            <label for="file-upload" class="custom-file-upload btn btn-outline-success">
+                                تغییر عکس
+                            </label>
+                            <input id="file-upload" type="file" />
+                        </div>
+                    </div>
+                    <div class="panel-list left-border py-5 me-5">
+                        <ul class="tabs">
+                            <li data-tab="tab1" class="active-tab">
+                                <a class="fs-5">
+                                    <i class="fa fa-check fs-4 ms-2" aria-hidden="true"></i>
+                                    حساب کاربری من
+                                </a>
+                            </li>
+                            <li data-tab="tab2">
+                                <a class="fs-5">
+                                    <i class="fa fa-user fs-4 ms-2" aria-hidden="true"></i>
+                                    ویرایش حساب کاربری
+                                </a>
+                            </li>
+                            <li data-tab="tab3">
+                                <a class="fs-5">
+                                    <i class="fa fa-lock fs-4 ms-2" aria-hidden="true"></i>
+                                    تغییر رمز عبور
+                                </a>
+                            </li>
+                            <li data-tab="tab4">
+                                <a class="fs-5">
+                                    <i class="fa fa-wallet fs-4 ms-2" aria-hidden="true"></i>
+                                    تاریخچه سفارش
+                                </a>
+                            </li>
+                            <li data-tab="tab5">
+                                <a class="fs-5">
+                                    <i class="fa fa-bank fs-4 ms-2" aria-hidden="true"></i>
+                                    تراکنش‌ها
+                                </a>
+                            </li>
+                            <li data-tab="tab6">
+                                <a class="fs-5">
+                                    <i class="fa fa-sign-out fs-4 ms-2" aria-hidden="true"></i>
+                                    خروج
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-9 mt-5">
+
+                    <div id="tab1" class="tab-content show">
+                        <h2 class="alert alert-success" role="alert">
+                            <i class="fa fa-check mx-3 fs-4" aria-hidden="true"></i>
+                            حساب کاربری من
+                        </h2>
+                        <div class="my-5">
+                            <Label class="fs-5 mx-1 text-muted">نام : </Label>
+                            <Label class="fs-5 mx-2 text-muted">نام </Label>
+                        </div>
+                        <div class="my-5">
+                            <Label class="fs-5 mx-1 text-muted"> نام خانوادگی : </Label>
+                            <Label class="fs-5 mx-2 text-muted">فامیل</Label>
+                        </div>
+                        <div class="my-5">
+                            <Label class="fs-5 mx-1 text-muted">شماره : </Label>
+                            <Label class="fs-5 mx-2 text-muted">09150980215</Label>
+                        </div>
+                        <div class="my-5">
+                            <Label class="fs-5 mx-1 text-muted">ایمیل : </Label>
+                            <Label class="fs-5 mx-2 text-muted">simple@gmail.com</Label>
+                        </div>
+                        <div class="my-5">
+                            <Label class="fs-5 mx-1 text-muted">تعداد سفارشات : </Label>
+                            <Label class="fs-5 mx-2 text-muted">0</Label>
+                        </div>
+                        <div class="my-5">
+                            <Label class="fs-5 mx-1 text-muted">تعداد نظرات : </Label>
+                            <Label class="fs-5 mx-2 text-muted">0</Label>
+                        </div>
+                        <div class="my-5">
+                            <button role="link" href="" class="btn btn-outline-success fs-4 mx-1">خروج</button>
+                        </div>
+                    </div>
+
+                    <div id="tab2" class="tab-content">
+                        <h2 class="alert alert-success" role="alert">
+                            <i class="fa fa-user mx-3 fs-4" aria-hidden="true"></i>
+                            ویرایش حساب کاربری
+                        </h2>
+                        <form action="" method="post" enctype="multipart/form-data">
+                            <div class="form-group my-4 row">
+                                <div class="col-md-2 text-center">
+                                    <label for="exampleFormControlInput1" class="fs-5">نام </label>
+                                </div>
+                                <div class="col-md-10">
+                                    <input type="text" class="form-control fs-5" id="exampleFormControlInput1"
+                                        placeholder="سینا" name="fname">
+                                </div>
+                            </div>
+                            <div class="form-group my-4 row">
+                                <div class="col-md-2 text-center">
+                                    <label for="exampleFormControlInput1" class="fs-5">نام خانوادگی</label>
+                                </div>
+                                <div class="col-md-10">
+                                    <input type="text" class="form-control fs-5" id="exampleFormControlInput1"
+                                        placeholder="رحیم زاده" name="lname">
+                                </div>
+                            </div>
+                            <div class="form-group my-4 row">
+                                <div class="col-md-2 text-center">
+                                    <label for="exampleFormControlInput1" class="fs-5">ایمیل</label>
+                                </div>
+                                <div class="col-md-10">
+                                    <input type="email" class="form-control fs-5" id="exampleFormControlInput1"
+                                        placeholder="name@example.com" name="email">
+                                </div>
+                            </div>
+                            <div class="form-group my-4 row">
+                                <div class="col-md-2 text-center">
+                                    <label for="exampleFormControlInput1" class="fs-5">تلفن همراه</label>
+                                </div>
+                                <div class="col-md-10">
+                                    <input type="number" class="form-control fs-5" id="exampleFormControlInput1"
+                                        placeholder="09121234568" name="tel">
+                                </div>
+                            </div>
+                            <div class="form-group my-4 row">
+                                
+                                <div class="col-md-2 text-center">
+                                    <label for="exampleFormControlInput1" class="fs-5">عکس پروفایل</label>
+                                </div>
+                                <div class="col-md-10">
+                                    <input type="file" class="form-control fs-5" id="exampleFormControlInput1"
+                                        name="profileImage">
+                                    <img src="../../Public/Product/img/avatar/avatar.png" alt="profile image"
+                                        width="150px" class="border my-3 rounded-3">
+                                </div>
+                            </div>
+                            <div class="form-group my-4 row">
+                                <div class="col-md-12 my-3">
+                                    <input type="submit" class="btn btn-success w-100 fs-5" value="ثبت">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div id="tab3" class="tab-content">
+                        <h2 class="alert alert-success" role="alert">
+                            <i class="fa fa-lock mx-3 fs-4" aria-hidden="true"></i>
+                            تغییر رمز عبور
+                        </h2>
+                        <div class="row justify-content-center">
+                            <div class="col-md-3 text-muted my-3">
+                                <h5>رمز عبر فعلی : </h5>
+                            </div>
+                            <div class="col-md-9">
+                                <a href="#">
+                                    <button class="btn btn-outline-success fs-5">فرستادن به ایمیل</button>
+                                </a>
+                            </div>
+
+                            <div class="col-md-3 text-muted my-3">
+                                <h5>تغییر رمز عبور : </h5>
+                            </div>
+                            <div class="col-md-9">
+                                <input type="password" class="form-control fs-5" id="exampleFormControlInput1"
+                                    placeholder="رمز عبور" name="password">
+                            </div>
+                            <div class="col-md-3 text-muted my-3">
+                                <h5>تکرار رمز عبور : </h5>
+                            </div>
+                            <div class="col-md-9">
+                                <input type="password" class="form-control fs-5" id="exampleFormControlInput1"
+                                    placeholder="تکرار رمز عبور" name="confirm-password">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div id="tab4" class="tab-content">
+                        <h2 class="alert alert-success" role="alert">
+                            <i class="fa fa-wallet mx-3 fs-4" aria-hidden="true"></i>
+                            تاریخچه سفارش
+                        </h2>
+                        <div class="alert alert-danger" role="alert">
+                            <h4>شما هیچ سفارشی ندارید!</h4>
+                        </div>
+                        <div class="col-lg-9 w-100">
+                            <div class="bottom-border">
+                                <div class="row">
+                                    <div class="col-lg-3 mt-3">
+                                        <img class="me-2 rounded-3"
+                                            src="../../Public/Product/img/wd-blue-2tb-150x150.jpg" alt="">
+                                    </div>
+                                    <div class="col-lg-6 mt-3">
+                                        <h4>هارد دیسک WD Blue 2TB WD20EZAZ</h4>
+                                        <h6 class="text-muted">WD20EZAZ</h6>
+                                    </div>
+
+                                    <div class="col-lg-3">
+                                        <h4 class="text-start ms-4">4,460,000 تومان</h4>
+                                        <h4 class="text-start ms-4 my-3">تعداد : 2</h4>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-9 w-100">
+                            <div class="bottom-border">
+                                <div class="row">
+                                    <div class="col-lg-3 mt-3">
+                                        <img class="me-2 rounded-3"
+                                            src="../../Public/Product/img/gigabyte-rtx-4080-super-windforce-16g-1-150x150.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="col-lg-6 mt-3">
+                                        <h4>هارد دیسک WD Blue 2TB WD20EZAZ</h4>
+                                        <h6 class="text-muted">WD20EZAZ</h6>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <h4 class="text-start ms-4">4,460,000 تومان</h4>
+                                        <h4 class="text-start ms-4 my-3">تعداد : 1</h4>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="tab5" class="tab-content">
+                        <h2 class="alert alert-success" role="alert">
+                            <i class="fa fa-bank mx-3 fs-4" aria-hidden="true"></i>
+                            تراکنش‌ ها
+                        </h2>
+                        <div class="table-systems">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" class="text-center">تاریخ افزودن</th>
+                                        <th scope="col" class="text-center">توضیحات</th>
+                                        <th scope="col" class="text-center">مقدار (TOM)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="text-center fs-5"></td>
+                                        <td class="text-center fs-5">هیچ تراکنشی یافت نشد!</td>
+                                        <td class="text-center fs-5"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- footer -->
+    <footer class="mt-4">
+        <div class="container">
+            <div class="boredr-sec"></div>
+            <div class="row my-4">
+                <div class="footer-img col-md-2 mt-4">
+                    <img src="../../Public/main-page/img/logo-footer.svg" alt="">
+                </div>
+                <div class="foonter-border col-md-2 mt-4">
+                    <h4 class="text-muted text-center"><i class="fa fa-phone text-success"
+                            aria-hidden="true"></i>&nbsp;&nbsp; تماس با پشتیبانی</h4>
+                    <h5 class="text-muted text-center">09159702153</h5>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <h4 class="text-muted me-4"><i class="fa fa-map-marker-alt text-success"
+                            aria-hidden="true"></i>&nbsp;&nbsp; نشانی</h4>
+                    <h5 class="text-muted me-4">تهران، تقاطع خیابان ولیعصر و طالقانی، مجتمع تجاری نور،
+                        طبقه همکف سوم تجاری، واحد ۸۰۲۸</h5>
+                </div>
+            </div>
+
+            <!-- accordion -->
+            <div class="row">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                <h6 class="fs-6 text-muted fw-bold">اطلاعات</h6>
+                                &nbsp; &nbsp; &nbsp;
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <ul>
+                                    <a href="#" class="fw-bold fs-4">
+                                        <li>درباره اگزو</li>
+                                    </a>
+                                    <a href="#" class="fw-bold fs-4">
+                                        <li>ثوانین اگزو</li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                <h6 class="fs-6 text-muted fw-bold">پرسش های متداول</h6>
+                                &nbsp; &nbsp; &nbsp;
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <ul>
+                                    <a href="#" class="fw-bold fs-4">
+                                        <li>شیوه ثبت سفارش</li>
+                                    </a>
+                                    <a href="#" class="fw-bold fs-4">
+                                        <li>شیوه پرداخت</li>
+                                    </a>
+                                    <a href="#" class="fw-bold fs-4">
+                                        <li>شیوه ارسال</li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                aria-controls="flush-collapseFour">
+                                <h6 class="fs-6 text-muted fw-bold">حساب کاربری من</h6>
+                                &nbsp; &nbsp; &nbsp;
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <ul>
+                                    <a href="#" class="fw-bold fs-4">
+                                        <li>حساب کاربری من</li>
+                                    </a>
+                                    <a href="#" class="fw-bold fs-4">
+                                        <li>سفارش ها</li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="social-media">
+                            <a href="#"><i class="fab fa-instagram fs-2 mx-2" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fab fa-telegram fs-2 mx-2" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fab fa-youtube fs-2 mx-2" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fab fa-twitter fs-2 mx-2" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fab fa-twitch fs-2 mx-2" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row my-5">
+                <h5 class="text-center text-dark fw-bold"> <span>Copyright 2024 © Sina Rahimzadeh - All rights
+                        reserved</span> &nbsp; | &nbsp; طراحی شده با <i class="fa fa-heart text-success"
+                        aria-hidden="true"></i> توسط <a href="#" style="font-size: 15px;">thesina_r</a></h5>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../Public/assets/js/bootstrap/bootstrap.bundle.js"></script>
+    <script src="../../Public/assets/js/swiper/swiper-bundle.min.js"></script>
+    <script src="../../Public/assets/js/jquery-3.7.1.min.js"></script>
+    <script src="../../Public/assets/js/all.my.js"></script>
+    <script src="../../Public/assets/font/js/all.js"></script>
+    <script src="../../Public/UserPanel/JS/all.userPanel.js"></script>
+    <script src="../../Public/Product/JS/all.my.js"></script>
+
+
+    <script>
+        // menu
+        $(document).ready(function () {
+            $('header .SubMenu').click(function () {
+                let SubMenu = $('#dropDownMenu');
+                SubMenu.slideDown();
+                $('html').append('<div class="back-container"></div>');
+                $('.back-container').click(function () {
+                    SubMenu.slideUp();
+                    $(this).remove();
+                })
+            })
+        })
+
+
+        // Responsive Menu
+        $(document).on('click', '.RN-category', () => {
+            $('.RN-SubMenu-ul').slideToggle();
+        })
+        $(document).ready(function () {
+            $(document).on('click', '.RN-item', function (e) {
+                e.preventDefault();
+                var submenu = $(this).next('.RN-Submenu-li');
+                $('.RN-Submenu-li').not(submenu).slideUp();
+                submenu.slideToggle();
+            });
+        });
+
+        $(document).on('click', '.burger-menu', () => {
+            let responsiveMenu = $('#responsive-navigation');
+            responsiveMenu.show();
+            responsiveMenu.animate({
+                right: 0
+            }, 300);
+            $('.closeRN').click(function () {
+                responsiveMenu.animate({
+                    right: '-1000px'
+                }, 300);
+            })
+        })
+
+        // Swpier 2
+        var swiper = new Swiper(".mySwiper-2", {
+            pagination: {
+                el: ".swiper-pagination",
+                dynamicBullets: true,
+            },
+        });
+    </script>
+
+</body>
+
+</html>

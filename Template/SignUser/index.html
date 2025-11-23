@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../Public/SignUser/css/style.css">
+    <link rel="icon" href="../../Public/main-page/img/ICON_Optimized.png" />
+    <title>Exo Game</title>
+</head>
+
+<body>
+
+    <div class="img">
+        <a href="#">
+            <img src="../../Public/main-page/img/logo-footer.svg" alt="">
+        </a>
+    </div>
+
+    <section class="wrapper">
+        <div class="form signup">
+            <header>ثبت نام</header>
+            <form action="#">
+                <input value="" type="text" placeholder="نام کاربری" required />
+                <input value="" type="email" placeholder="نشانی ایمیل" required />
+                <input value="" type="password" placeholder="رمز عبور" required />
+                <div class="checkbox">
+                    <input type="checkbox" id="signupCheck" />
+                    <label for="signupCheck">شرایط را پذیرفتم و با قوانین موافقم</label>
+                </div>
+                <input type="submit" value="ثبت نام" />
+            </form>
+        </div>
+
+        <div class="form login">
+            <header>ورود</header>
+            <form action="#">
+                <input value="" type="email" placeholder="نشانی ایمیل" required />
+                <input value="" type="password" placeholder="رمز عبور" required />
+                <a href="#">رمز را فراموش کردید ؟ </a>
+                <input type="submit" value="ورود" />
+            </form>
+        </div>
+
+        <script>
+            const wrapper = document.querySelector(".wrapper"),
+                signupHeader = document.querySelector(".signup header"),
+                loginHeader = document.querySelector(".login header");
+
+            loginHeader.addEventListener("click", () => {
+                wrapper.classList.add("active");
+            });
+            signupHeader.addEventListener("click", () => {
+                wrapper.classList.remove("active");
+            });
+        </script>
+    </section>
+</body>
+
+</html>
